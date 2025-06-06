@@ -33,11 +33,11 @@ Resources <block> aws_instance <Paramenter> <Instance-name>{
 
 # Terraform Workflow 
 - Create  file  <main.tf>
-- Initilazation <terraform init> after init you will get environment 
-- Validate your terraform code <terraform validate>
-- Plan the terraform : to verify the output from main.tf <terrafom plan>
-- Now apply terraform <terraform apply>
-- If you want to destroy your IaC configuration <terraform destroy>
+- Initialization the terraform code after init you will get environment 
+- then you can check or validate the terraform code. [ If you want to check your syntax]
+- Now, Plan to deploy terraform code it will show you output of your terraform code 
+- After plan you can apply terraform it will provision your terraform code.
+- At last you can delete resources by using `terraform destroy` command. 
 
 # Initialization Terraform 
 ```
@@ -51,11 +51,11 @@ terraform validate
 ```
 terraform plan
 ```
-# apply the terraform code 
+# Apply the terraform code 
 ```
 terraform apply
 ```
-# delete the terraform code 
+# Delete the terraform code 
 ```
 terraform destroy 
 ```
