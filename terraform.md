@@ -39,28 +39,31 @@ Resources <block> aws_instance <Paramenter> <Instance-name>{
 - After plan you can apply terraform it will provision your terraform code.
 - At last you can delete resources by using `terraform destroy` command. 
 
-# Initialization Terraform 
+# Step to use terraform 
+## Initialization Terraform 
 ```
 terraform init
 ```
-# Validate Terraform 
+## Validate Terraform 
 ```
 terraform validate
 ```
-# Plan the terraform code 
+##Plan the terraform code 
 ```
 terraform plan
 ```
-# Apply the terraform code 
+## Apply the terraform code 
 ```
 terraform apply
 ```
-# Delete the terraform code 
+## Delete the terraform code 
 ```
 terraform destroy 
 ```
-# Automatic approve yes during apply terraform code 
+## Automatic approve yes during apply terraform code 
 ```
-terraform apply -auto-apporve
+terraform apply -auto-approve
 ```
 
+# What is Interpolation
+- 
